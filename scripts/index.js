@@ -65,7 +65,6 @@ document.getElementById("search_input").addEventListener("keydown",search);
 
 
 ///////https://masai-mock-api.herokuapp.com/news/top-headlines?country={country code}
-
 let searchImages1= async(v)=>{
     try{
 let res=await fetch(`https://masai-mock-api.herokuapp.com/news/top-headlines?country=${v}`
